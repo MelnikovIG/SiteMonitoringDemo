@@ -15,9 +15,9 @@ Prerequisites: .NET Core 2.2 sdk required to build app (included in latest versi
 2) Open browser at url http://localhost:5000/
 
 Note: there is some predefined urls to test app
-- http://localhost:5000/alwaysOk always returns NoContent(204) stattus
-- http://localhost:5000/alwaysFail always returns InternalServerError(500) stattus
-- http://localhost:5000/alwaysLong always returns NoContent(204) stattus, but with long response (considered as failure)
+- http://localhost:5000/alwaysOk always returns NoContent(204) status
+- http://localhost:5000/alwaysFail always returns InternalServerError(500) status
+- http://localhost:5000/alwaysLong always returns NoContent(204) status, but with long response (considered as failure)
 - http://localhost:5000/random selects randomly between NoContent(204) and InternalServerError(500) status
 
 ## Tests
